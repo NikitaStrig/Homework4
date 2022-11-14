@@ -42,7 +42,7 @@ public class Main {
         if (ageHuman4 >= 24) {
             System.out.println("Если возраст человека равен " + ageHuman4 + " , то ему нужно ходить на работу");
         }
-        System.out.println("Задание 4");
+        System.out.println("Задание 5");
         int childAage = 14;
         if (childAage < 5) {
             System.out.println("Ребенок не может кататься на атракционе");
@@ -53,20 +53,21 @@ public class Main {
         if (childAage >= 14) {
             System.out.println("Ребенок может кататься на атракционе, без сопровождении взрослого.");
         }
-        System.out.println("Задание 5");
-        int one = 9;
-        int two = 8;
-        int free = 10;
-        if (one > two && one > free) {
+        System.out.println("Задание 6");
+        int one = 10;
+        int two = 9;
+        int free = 9;
+        if (one > two && one > free || one == two) {
             System.out.println(one);
         }
-           else if (two > one && two > free) {
+           else if (two > one && two > free || two == one) {
                 System.out.println(two);
             }
 
         else {
             System.out.println(free);
         }
+
 
 
 
