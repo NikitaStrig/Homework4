@@ -56,7 +56,7 @@ public class Main {
         System.out.println("Задание 5");
         int one = 9;
         int two = 8;
-        int free = 7;
+        int free = 10;
         if (one > two && one > free) {
             System.out.println(one);
         }
